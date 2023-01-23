@@ -1,4 +1,4 @@
-dogCommon = [
+Common = [
     "Alaskan Klee Kai",
     "American Bulldog",
     "American Leopard Hound",
@@ -86,7 +86,7 @@ dogCommon = [
 ]
 
 
-dogUncommon = [
+Uncommon = [
     "Airedale Terrier",
     "Akita",
     "Alaskan Malamute",
@@ -162,7 +162,7 @@ dogUncommon = [
 ]
 
 
-dogRare = [
+Rare = [
     "Afghan Hound",
     "American Eskimo Dog",
     "American Staffordshire Terrier",
@@ -227,7 +227,7 @@ dogRare = [
 ]
 
 
-dogUltra = [
+Ultra = [
     "Affenpinscher",
     "American English Coonhound",
     "American Hairless Terrier",
@@ -275,7 +275,7 @@ dogUltra = [
 ]
 
 
-dogLegendary = [
+Legendary = [
     "American Foxhound",
     "Bergamasco Sheepdog",
     "Canaan Dog",
@@ -295,7 +295,7 @@ dogLegendary = [
 ]
 
 
-dogDeity = [
+Deity = [
     "Norwegian Lundehund",
     "Sloughi",
     "Yakutian Laika",
@@ -305,7 +305,7 @@ dogDeity = [
 ]
 
 
-dogSuccess = {
+Success = {
     "success" : 50,
     "max" : 322,
     "common" : 1,
