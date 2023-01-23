@@ -1,5 +1,6 @@
 import discord
 import action
+import sys
 
 async def send_message(message, user_message, is_private):
     try:
@@ -9,8 +10,16 @@ async def send_message(message, user_message, is_private):
         print(e)
 
 
+def get_Token():
+    a = ""
+    with open("C:/Users/DanK/Documents/bots/gotcha/token.txt") as f:
+        a = f.readline()
+        return a
+
+
+
 def run_discord_bot():
-    TOKEN = 'NO PLAIN TEXT'
+    TOKEN = get_Token()
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)

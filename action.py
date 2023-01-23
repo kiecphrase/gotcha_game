@@ -9,5 +9,8 @@ def handle_response(m) -> str:
     elif p_message == '!help':
         return '`type "$roll" to play!`'
 
+    elif p_message == 'yeehaw':
+        return '*a cowboy should be rootin, tootin, and above all else, kind*'
+
     else:
         return
