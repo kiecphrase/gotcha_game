@@ -69,6 +69,9 @@ def element_pull():
 
     return [rarity_alert, pulled_item]
 
+def getLink(p):
+    return "https://en.wikipedia.org/wiki/" + p
+
 def success():
     g = r.randint(1,2)
 
@@ -78,8 +81,9 @@ def success():
     elif g == 2:
         ret = element_pull()
 
-
-    s = ret[0] + '\nyou got a ' + ret[1]
+    lnk = getLink(ret[1])
+    
+    s = ret[0] + '\nyou got a ' + ret[1] + '\n' + lnk
 
     return s
 
