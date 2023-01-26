@@ -9,7 +9,7 @@ Common = [
     "Barbado da Terceira",
     "Barbet",
     "Basset Fauve de Bretagne",
-    "Bavarian Mountain Scent Hound",
+    "Bavarian Mountain Hound",
     "Belgian Laekenois",
     "Biewer Terrier",
     "Bohemian Shepherd",

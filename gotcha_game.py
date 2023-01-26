@@ -70,7 +70,12 @@ def element_pull():
     return [rarity_alert, pulled_item]
 
 def getLink(p):
-    return "https://en.wikipedia.org/wiki/" + p
+    d = ""
+    if p.find(" ") != -1:
+        d = p.replace(" ", "_")
+    else:
+        d = p
+    return "https://en.wikipedia.org/wiki/" + d
 
 def success():
     g = r.randint(1,2)
