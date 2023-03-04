@@ -1,6 +1,6 @@
 # gotcha_game
 
-New Discord Gotcha Game project starting in 2023 (abandoned the old one lol)
+New Discord Gotcha Game project starting in 2023
 
 ---
 
