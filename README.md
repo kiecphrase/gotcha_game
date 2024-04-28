@@ -13,5 +13,5 @@ New Discord Gotcha Game project starting in 2023
 | get bot working on discord test server | 20230122 | complete | 20230122 |
 | bot pulls token from file | 20230123 | complete | 20230122 |
 | fix data structure to allow for many data files | ??? | complete | 20230123 |
-| bot adds relevant picture to pull | 20230127 | in progress | ??? |
+| bot adds relevant picture to pull | 20230127 | ~complete | 20231116 |
 | bot can save what the user has pulled | ??? | not started | ??? |

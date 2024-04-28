@@ -6,7 +6,7 @@ def handle_response(m) -> str:
     if p_message == '$roll':
         return g()
 
-    elif p_message == '!help':
+    elif p_message == '$help':
         return '`type "$roll" to play!`'
 
     elif p_message == 'yeehaw':
